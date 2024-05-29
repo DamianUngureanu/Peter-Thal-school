@@ -1,0 +1,118 @@
+*{
+    font-family: "Pacifico";
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titlu,.alege{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.titlu{
+    height: 20%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.titlu img{
+    height: 90%;
+    margin:6px 0 0 12px;
+}
+.titlu p{
+    font-size: 50px;
+    color:rgb(82, 37, 0);
+    text-align: center;
+}
+.alege{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.al1,.al2{
+    height: 60%;
+    width: 400px;
+    background-color: rgba(230, 221, 193, 0.6);
+    border: none;
+    border-radius: 20px;
+    transition:.15s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.al1:hover,.al2:hover{
+    background-color: rgba(230, 221, 193, 0.8);
+    cursor: pointer;
+}
+.alege a{
+    text-decoration: none;
+    font-size: 48px;
+    width: 100%;
+    color:rgb(82, 37, 0);
+    height: 100%;
+}
+.pp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:830px){
+    .alege{
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .al1,.al2{
+        width: 400px;
+        height: 40%;
+    }
+}
+@media(max-width:751px){
+    .titlu p{
+        font-size: 40px;
+    }
+}
+@media(max-width:620px){
+    .titlu p{
+        font-size: 35px;
+    }
+}
+@media(max-width:550px){
+    .titlu p{
+        font-size: 30px;
+    }
+}
+@media(max-width:480px){
+    .titlu p{
+        font-size: 25px;
+    }
+}
+@media(max-width:420px){
+    .titlu{
+        justify-content: center;
+    }
+    .titlu img,.plus{
+    display:none;
+   }
+   .al1,.al2{
+    width: 90%;
+   }
+}
+@media(max-width:320px){
+    .titlu p{
+        font-size: 20px;
+    }
+}
+@media(max-width:250px){
+    .titlu p{
+        font-size: 17px;
+    }
+}

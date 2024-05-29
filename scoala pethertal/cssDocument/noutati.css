@@ -1,0 +1,87 @@
+*{
+    font-family: "roboto";
+}
+.anunturi{
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--back);
+}
+.cont{
+    width: 90%;
+    height: 500px;
+    background-color: white;
+    margin-top:10px;
+    margin-bottom:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+.DIVcont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+}
+.scris{
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:10px;
+}
+.plus,.tit{
+    flex:1;
+}
+.tit{
+    height:10%;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: var(--titlu);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left:50px;
+    border-radius: 5px;
+}
+.scris p{
+    font-size: var(--paragraf);
+    font-weight: 500;
+}
+.scris a{
+    font-size: var(--link);
+    font-weight: 400;
+}
+.imgg{
+    height:100%;
+    width: 100%;
+    padding:15px 0px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    row-gap: 20px;
+}
+.imgg img{
+    width: 50%;
+    padding-right: 10px;
+}
+@media(max-width:510px){
+    .scris p{
+        font-size: 14px;
+    }
+}
+@media(max-width:350px){
+    .scris p{
+        font-size: 10px;
+    }
+}

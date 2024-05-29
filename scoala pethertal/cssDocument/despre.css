@@ -1,0 +1,44 @@
+*{
+    font-family: "roboto";
+}
+.cont{
+    background:var(--back);
+    display: flex;
+    justify-content: center;
+}
+.despre{
+    width: 90%;
+    background-color: white;
+    margin:10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:20px 20px ;
+    border-radius: 5px;
+}
+.moto{
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 0;
+}
+.unuu,.doii,.treii,.patruu{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    margin-bottom:50px;
+}
+.doii img{
+    height: 100%;
+}
+.unuN,.doiN,.treiN,.patruN{
+    font-size: 27px;
+    font-weight: 700;
+}
+.unuS,.doiS,.treii ul,.patruS{
+    flex:1;
+    font-size: 20px;
+}
+.treii ul{
+    margin-left: 50px;
+}

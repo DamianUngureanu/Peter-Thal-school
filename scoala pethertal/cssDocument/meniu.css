@@ -1,0 +1,121 @@
+*{
+    font-family: "roboto";
+}
+.tot{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(224, 169, 116);
+}
+.meniu{
+    height: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0);
+}
+.bt,.adm button{
+    width: 100%;
+    border: none;
+    background-color: white;
+    transition: .15s;
+}
+.bt:hover,.adm button:hover{
+    background-color: rgb(82, 37, 0) !important;
+}
+a{
+    text-decoration: none;
+    width: 100% ;
+}
+a p,#bt5 p,.adm button a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    color:rgb(82, 37, 0);
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 14px;
+    transition: .15s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt:hover>a p,.bt:hover> p,.adm button:hover> a{
+    color:white !important;
+}
+.siglaDIV{
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:2px solid rgb(82, 37, 0);
+}
+.siglaDIV img{
+    height: 100%;
+    padding: 5px 20px;
+}
+.siglaDIV p{
+    color:rgb(82, 37, 0);
+    font-family: Pacifico;
+    font-size: 50px;
+    text-align: center;
+    font-family: "pacifico";
+}
+#bt5{
+    position:relative;
+}
+#bt5:hover{
+    cursor: pointer;
+}
+.adm{
+    position: absolute;
+    top:100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .1s;
+}
+.adm button{
+    width: 100%;
+    height: 33%;
+    border-left: 2px solid rgb(82, 37, 0);
+    border-right: 2px solid rgb(82, 37, 0);
+    border-bottom: 2px solid rgb(82, 37, 0);
+}
+@media(max-width:940px){
+    a p{
+        font-size: 12px;
+    }
+}
+@media(max-width:730px){
+    .meniu{
+        overflow-x: auto;
+        overflow-y: hidden;
+        height: 56px;
+        width: 100%;
+    }
+    .siglaDIV p{
+        font-size: 40px;
+    }
+}
+@media(max-width:680px){
+    .siglaDIV p{
+        font-size: 30px;
+    }
+}
+@media(max-width:550px){
+    .siglaDIV img,.plus{
+        display: none;
+    }
+    .siglaDIV{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,46 @@
+*{
+    font-family: "roboto";
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.cont{
+    background:var(--back);
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.despre{
+    width: 90%;
+    background-color: white;
+    margin:10px 0;
+    display: flex;
+    flex-direction: column;
+    padding:20px 20px ;
+    border-radius: 5px;
+}
+.restul{
+    display: flex;
+    flex-direction: row;
+}
+.scris2{
+    flex:2;
+    display: flex;
+    align-items: center;
+}
+.scris1,.scris2{
+    font-size: 2.8vmin;
+}
+.imgg{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    height: 70%;
+}
+.imgg img{
+    height: 20vmin;
+}

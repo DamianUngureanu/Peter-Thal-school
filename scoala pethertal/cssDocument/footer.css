@@ -1,0 +1,66 @@
+*{
+    font-family: "roboto";
+}
+footer{
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top:3px solid rgb(82, 37, 0);
+    padding: 10px 15px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+.unu{
+    font-weight: 900;
+    font-size: 20px;
+}
+.doi{
+    font-size: 14px;
+    font-weight: 400;
+    padding-left:5px;
+    display: flex;
+    align-items: center;
+}
+footer a{
+    color:black;
+    font-weight: 500;
+}
+.pr button{
+    width: 70px;
+    height: 30px;
+    border:1px solid rgb(82, 37, 0);
+    border-radius: 4px;
+    background-color: white;
+    transition: .15s;
+}
+.pr button:hover{
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+.pr button:active{
+    background-color: rgb(189, 189, 189);
+    cursor: pointer;
+}
+.prpr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+@media(max-width:510px){
+    footer{
+        flex-direction: column;
+        height: auto;
+        row-gap: 10px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+}

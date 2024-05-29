@@ -1,0 +1,34 @@
+*{
+    font-family: "roboto";
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.cont{
+    background:var(--back);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.despre{
+    width: 90%;
+    background-color: white;
+    margin:10px 0;
+    display: flex;
+    flex-direction: column;
+    padding:20px 20px ;
+    border-radius: 5px;
+}
+.despre p{
+    color:black;
+    font-size: 24px;
+    font-weight: 600;
+}
+.despre ul{
+    margin-left:30px;
+    font-size: 19px;
+}

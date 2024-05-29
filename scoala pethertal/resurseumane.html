@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resurse materiale și umane</title>
+    <link rel="stylesheet" href="cssDocument/general.css">
+    <link rel="stylesheet" href="cssDocument/meniu.css">
+    <link rel="stylesheet" href="cssDocument/footer.css">
+    <link rel="stylesheet" href="cssDocument/resurseumane.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="tot" id="tot">
+        <div class="siglaDIV" id="siglaDIV">
+            <img src="imagini/sigla.jpg" alt="sigla">
+            <p>Școala gimnazială Peter Thal</p>
+            <div class="plus"></div>
+        </div>
+        <div class="meniu" id="meniu">
+            <button class="bt" id="bt1"><a href="noutati.html" id="a1"><p>Noutăți</p></a></button>
+            <button class="bt" id="bt2"><a href="despre.html" id="a2"><p>Despre noi</p></a></button>
+            <button class="bt" id="bt3"><a href="resurseumane.html" id="a3"><p>Resurse umane și materiale</p></a></button>
+            <button class="bt" id="bt4"><a href="istoric.html" id="a7"><p>Istoric</p></a></button>
+            <div class="bt" id="bt5" onclick="deschide()">
+                <p id="pp">Administrative<ion-icon name="chevron-down-outline"></ion-icon></p>
+                <div class="adm" id="adm">
+                    <button><a href="catedre.html">Catedre</a></button>
+                    <button><a href="catedre.html">Catedre</a></button>
+                    <button><a href="catedre.html">Lislatie</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cont" id="cont">
+        <div class="despre" id="despre">
+            <p>Resurse materiale:</p>
+            <ul class="a">
+                <li>30 săli de clasă + 6 săli la Liceul Tehnologic Râşnov</li>
+                <li>O sală - Centru de Documentare şi Informare (CDI)</li>
+                <li>Un cabinet de logopedie</li>
+                <li>Un cabinet de consiliere psihologică</li>
+                <li>O sală polivalentă multifuncţional</li>
+                <li>O sală de sport</li>
+                <li>Un teren de sport</li>
+            </ul>
+            <br>
+            <p>Resurse umane:</p>
+            <ul class="a">
+                <li>Director: Mihăilă Doina</li>
+                <li>Director adjunct: Pivaru Felicia</li>
+                <li>Secretar: State Liliana şi Nan Marcela</li>
+                <li>Bibliotecar: Bordea Petronela</li>
+                <li>Contabil: Enache Maria</li>
+                <li>Consilier educativ: Constantinescu Irinel</li>
+                <li>Coordonator proiecte şi programe: Melinte Mihaela</li>
+                <li>Cadre didactice: 47, dintre care 21 învăţători și 26 profesori</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="contact" id="contact">
+            <p class="unu">Contact:</p>
+            <div class="resutl" id="restul">
+                <p class="doi"><ion-icon name="call"></ion-icon>Telefon:&nbsp;<a href="#">0268 257 399</a></p>
+                <p class="doi"><ion-icon name="mail"></ion-icon>eMail:&nbsp;<a href="#">rasnovgenerala2@yahoo.com</a></p>
+                <p class="doi"><ion-icon name="location"></ion-icon>Adresa:&nbsp;<a target="_blank" href="https://www.google.com/maps/place/%C8%98coala+Gimnazial%C4%83+Num%C4%83rul+2/@45.59208,25.4646751,17z/data=!3m1!4b1!4m5!3m4!1s0x40b345a47f279a91:0xad4c293a8e34a9e4!8m2!3d45.5920763!4d25.4668638">Strada Izvor Nr. 10</a></p>
+                <p class="doi"><ion-icon name="globe"></ion-icon>Blog:&nbsp;<a href="#">https://scoala2rasnov.blogspot.com/</a></p>
+            </div>
+        </div>
+        <div class="pr" id="pr">
+            <button><a href="#" class="prpr">Proiete<ion-icon name="caret-forward"></ion-icon></a></button>
+        </div>
+    </footer>
+    <script src="jsDocument/meniu.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

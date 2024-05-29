@@ -1,0 +1,28 @@
+*{
+    font-family: "roboto";
+}
+.content{
+    background:var(--back);
+    display: flex;
+    justify-content: center;
+}
+.info{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    margin:10px 0;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    row-gap: 25px;
+    padding:20px 20px ;
+    border-radius: 5px;
+}
+.c{
+    list-style-type: disc;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.884);
+}
+@media(max-width:300px){
+    .info{
+        grid-template-columns:100px 1fr;
+    }
+}
